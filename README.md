@@ -95,31 +95,6 @@ The following deep learning models were evaluated:
 | EfficientNetB3  | 47.88%       | Scaled-up but underperforming  |
 | EfficientNetB0  | 44.40%       | Fastest, but lowest accuracy   |
 
-### 📊 External Test Accuracy (from other studies):
-
-| Model           | Accuracy (%) | Source                  |
-|------------------|--------------|--------------------------|
-| VGG-19           | 70.35        | Lou et al.              |
-| VGG-16           | 68.12        | Perumal et al.          |
-| InceptionV3      | 69.50        | Mahapatra et al.        |
-| DenseNet121      | 67.20        | Ezzoddin et al.         |
-| ResNet50         | 65.44        | Garg et al.             |
-| EfficientNetB0   | 66.78        | Chetoui et al.          |
-| Xception         | 67.98        | Hasani et al.           |
-| MobileNetV2      | 61.10        | Nasiri et al.           |
-| EfficientNetB3   | 68.05        | Derived from B0 variant |
-| NASNetMobile     | 62.40        | Forum experiment        |
-
----
-
-## 🧾 Conclusion
-
-- **VGG19** was the most accurate model on this dataset, achieving **81.54%**.
-- **Xception** and **InceptionV3** also showed strong performance.
-- Lightweight models (EfficientNetB0, MobileNetV2) were faster but less accurate.
-- These results show that **CNN-based models can effectively aid in fast, automated diagnosis of COVID-19** using CT images.
-- With further tuning, these models can assist real-world medical workflows, improving speed, reliability, and reach of diagnostic services.
-
 ---
 
 ## 🚀 How to Use
